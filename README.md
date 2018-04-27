@@ -42,7 +42,7 @@ Le lien avec ce template a été retiré car il n'existe pas de version "Active"
 
 _ps: pour avoir la version "Active" d'un template il suffit de cloner le template "Passif" et de modifier le type de chaque élément._
 
-
+---
 ## pfSense Zabbix Template
 FreeBSD template pfSense-oriented:
   - complete remodeling of memory monitoring
