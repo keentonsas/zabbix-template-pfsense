@@ -1,7 +1,7 @@
 [![Keenton : Informatique / Cloud / Infogérance / SaaS](https://www.keenton.com/keenton_github.png)](https://www.keenton.com)
 
 ## Zabbix Template - pfSense
-[README in english](https://code.keenton.com/Zabbix/template-pfsense/src/master/README_en.md)
+[README in english](https://github.com/keentonsas/zabbix-template-pfsense/blob/master/README_en.md)
 
 Template FreeBSD orienté pfSense:
   - refonte total du monitoring de la mémoire
