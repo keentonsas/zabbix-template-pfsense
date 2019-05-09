@@ -62,6 +62,7 @@ Nothing special, just import both templates, create the host for pfSense and lin
 
 #### Zabbix Agent: _User Parameters_
 In Zabbix agent config on pfSense, you must display the advanced configuration options and add to the _User Parameters_ field that just appeared:
+
     UserParameter=pfsense.states.max,grep "limit states" /tmp/rules.limits | cut -f4 -d ' '
     UserParameter=pfsense.states.current,grep "current entries" /tmp/pfctl_si_out | tr -s ' ' | cut -f4 -d ' '
     UserParameter=pfsense.mbuf.current,netstat -m | grep "mbuf clusters" | cut -f1 -d ' ' | cut -d '/' -f1
